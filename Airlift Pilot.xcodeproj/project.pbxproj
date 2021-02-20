@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		932FDF6425DE429600D20748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF6325DE429600D20748 /* AppDelegate.swift */; };
-		932FDF6625DE429600D20748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF6525DE429600D20748 /* SceneDelegate.swift */; };
-		932FDF6825DE429600D20748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF6725DE429600D20748 /* ViewController.swift */; };
+		932FDF6825DE429600D20748 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF6725DE429600D20748 /* LoginViewController.swift */; };
 		932FDF6B25DE429600D20748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932FDF6925DE429600D20748 /* Main.storyboard */; };
 		932FDF6D25DE429700D20748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932FDF6C25DE429700D20748 /* Assets.xcassets */; };
 		932FDF7025DE429700D20748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932FDF6E25DE429700D20748 /* LaunchScreen.storyboard */; };
+		932FDF8025DE57C100D20748 /* StopsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF7F25DE57C100D20748 /* StopsTableViewCell.swift */; };
+		932FDF8325DE57F200D20748 /* StopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF8225DE57F200D20748 /* StopsViewController.swift */; };
+		932FDF9725DF7CFF00D20748 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF9625DF7CFF00D20748 /* RoutesViewController.swift */; };
+		932FDF9A25DF7E6C00D20748 /* RoutesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDF9925DF7E6C00D20748 /* RoutesTableViewCell.swift */; };
+		932FDFA225DF7F8300D20748 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDFA125DF7F8300D20748 /* Route.swift */; };
+		932FDFA625DF802B00D20748 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDFA525DF802B00D20748 /* Stop.swift */; };
+		93C1B90A25DFA53B00D1962A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1B90925DFA53B00D1962A /* CardView.swift */; };
+		93C1B91725E0CC7900D1962A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C1B91625E0CC7900D1962A /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		932FDF6025DE429600D20748 /* Airlift Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airlift Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932FDF6025DE429600D20748 /* Airlift Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airlift Pilot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		932FDF6325DE429600D20748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		932FDF6525DE429600D20748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		932FDF6725DE429600D20748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932FDF6725DE429600D20748 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		932FDF6A25DE429600D20748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		932FDF6C25DE429700D20748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		932FDF6F25DE429700D20748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		932FDF7125DE429700D20748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932FDF7F25DE57C100D20748 /* StopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsTableViewCell.swift; sourceTree = "<group>"; };
+		932FDF8225DE57F200D20748 /* StopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsViewController.swift; sourceTree = "<group>"; };
+		932FDF9625DF7CFF00D20748 /* RoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
+		932FDF9925DF7E6C00D20748 /* RoutesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesTableViewCell.swift; sourceTree = "<group>"; };
+		932FDFA125DF7F8300D20748 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		932FDFA525DF802B00D20748 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		93C1B90925DFA53B00D1962A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		93C1B91625E0CC7900D1962A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +54,7 @@
 		932FDF5725DE429600D20748 = {
 			isa = PBXGroup;
 			children = (
-				932FDF6225DE429600D20748 /* Airlift Driver */,
+				932FDF6225DE429600D20748 /* Airlift Pilot */,
 				932FDF6125DE429600D20748 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +62,78 @@
 		932FDF6125DE429600D20748 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				932FDF6025DE429600D20748 /* Airlift Driver.app */,
+				932FDF6025DE429600D20748 /* Airlift Pilot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		932FDF6225DE429600D20748 /* Airlift Driver */ = {
+		932FDF6225DE429600D20748 /* Airlift Pilot */ = {
 			isa = PBXGroup;
 			children = (
 				932FDF6325DE429600D20748 /* AppDelegate.swift */,
-				932FDF6525DE429600D20748 /* SceneDelegate.swift */,
-				932FDF6725DE429600D20748 /* ViewController.swift */,
+				93C1B91925E0CFC400D1962A /* Helpers */,
+				932FDFA425DF7F9100D20748 /* Models */,
+				932FDF9F25DF7F0200D20748 /* Views */,
+				932FDF9C25DF7EAB00D20748 /* Controllers */,
+				932FDFA025DF7F1900D20748 /* Resources */,
+			);
+			path = "Airlift Pilot";
+			sourceTree = "<group>";
+		};
+		932FDF9C25DF7EAB00D20748 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				932FDF6725DE429600D20748 /* LoginViewController.swift */,
+				932FDF9625DF7CFF00D20748 /* RoutesViewController.swift */,
+				932FDF8225DE57F200D20748 /* StopsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		932FDF9F25DF7F0200D20748 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				932FDF9925DF7E6C00D20748 /* RoutesTableViewCell.swift */,
+				932FDF7F25DE57C100D20748 /* StopsTableViewCell.swift */,
+				93C1B90925DFA53B00D1962A /* CardView.swift */,
 				932FDF6925DE429600D20748 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		932FDFA025DF7F1900D20748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				932FDF6C25DE429700D20748 /* Assets.xcassets */,
 				932FDF6E25DE429700D20748 /* LaunchScreen.storyboard */,
 				932FDF7125DE429700D20748 /* Info.plist */,
 			);
-			path = "Airlift Driver";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		932FDFA425DF7F9100D20748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				932FDFA125DF7F8300D20748 /* Route.swift */,
+				932FDFA525DF802B00D20748 /* Stop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93C1B91925E0CFC400D1962A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				93C1B91625E0CC7900D1962A /* DataManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		932FDF5F25DE429600D20748 /* Airlift Driver */ = {
+		932FDF5F25DE429600D20748 /* Airlift Pilot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 932FDF7425DE429700D20748 /* Build configuration list for PBXNativeTarget "Airlift Driver" */;
+			buildConfigurationList = 932FDF7425DE429700D20748 /* Build configuration list for PBXNativeTarget "Airlift Pilot" */;
 			buildPhases = (
 				932FDF5C25DE429600D20748 /* Sources */,
 				932FDF5D25DE429600D20748 /* Frameworks */,
@@ -82,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "Airlift Driver";
+			name = "Airlift Pilot";
 			productName = "Airlift Driver";
-			productReference = 932FDF6025DE429600D20748 /* Airlift Driver.app */;
+			productReference = 932FDF6025DE429600D20748 /* Airlift Pilot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 932FDF5B25DE429600D20748 /* Build configuration list for PBXProject "Airlift Driver" */;
+			buildConfigurationList = 932FDF5B25DE429600D20748 /* Build configuration list for PBXProject "Airlift Pilot" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				932FDF5F25DE429600D20748 /* Airlift Driver */,
+				932FDF5F25DE429600D20748 /* Airlift Pilot */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932FDF6825DE429600D20748 /* ViewController.swift in Sources */,
+				932FDF8325DE57F200D20748 /* StopsViewController.swift in Sources */,
+				93C1B91725E0CC7900D1962A /* DataManager.swift in Sources */,
+				93C1B90A25DFA53B00D1962A /* CardView.swift in Sources */,
+				932FDF8025DE57C100D20748 /* StopsTableViewCell.swift in Sources */,
+				932FDFA625DF802B00D20748 /* Stop.swift in Sources */,
+				932FDF6825DE429600D20748 /* LoginViewController.swift in Sources */,
+				932FDF9A25DF7E6C00D20748 /* RoutesTableViewCell.swift in Sources */,
+				932FDFA225DF7F8300D20748 /* Route.swift in Sources */,
+				932FDF9725DF7CFF00D20748 /* RoutesViewController.swift in Sources */,
 				932FDF6425DE429600D20748 /* AppDelegate.swift in Sources */,
-				932FDF6625DE429600D20748 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +356,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ6Z8A96D7;
-				INFOPLIST_FILE = "Airlift Driver/Info.plist";
+				INFOPLIST_FILE = "Airlift Pilot/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.airlifttech.Airlift-Driver";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlifttech.Airlift-Pilot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +376,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJ6Z8A96D7;
-				INFOPLIST_FILE = "Airlift Driver/Info.plist";
+				INFOPLIST_FILE = "Airlift Pilot/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.airlifttech.Airlift-Driver";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.airlifttech.Airlift-Pilot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		932FDF5B25DE429600D20748 /* Build configuration list for PBXProject "Airlift Driver" */ = {
+		932FDF5B25DE429600D20748 /* Build configuration list for PBXProject "Airlift Pilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				932FDF7225DE429700D20748 /* Debug */,
@@ -331,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		932FDF7425DE429700D20748 /* Build configuration list for PBXNativeTarget "Airlift Driver" */ = {
+		932FDF7425DE429700D20748 /* Build configuration list for PBXNativeTarget "Airlift Pilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				932FDF7525DE429700D20748 /* Debug */,
